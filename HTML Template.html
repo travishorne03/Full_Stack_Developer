@@ -1,122 +1,247 @@
-<!-- HTML TEMPLATE -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta charset="UTF-8">
+    <title>Tresean Adam | Fullstack Dev</title>
 
-  <!-- Media Query Tag -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title> HTML TEMPLATE </title>
-
-  <!-- Added link to the jQuery Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- css reset -->
-  <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-  <!-- jquery-->
-  <script src="jquery-3.2.1.min.js"></script>
-
-
-  <!-- custom css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+        crossorigin="anonymous">
+    <!-- personal css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var options = {
+                strings: ["a thinker.", "a visionary", "a fullstack developer"],
+                typeSpeed: 80,
+                fadeOut: true,
+                fadeOutClass: 'typed-fade-out',
+                fadeOutDelay: 700,
+            }
+            var typed = new Typed(".element", options);
+        })
+    </script>
 </head>
 
-<!-- Visible Website Content -->
 <body>
+    <header id="header">
+        <!-- begin navbar -->
+        <nav id="navi" class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#header">Tresean Adam</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent "
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="color:#f5f5f5;" class="navbar-toggler-icon">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </span>
+                </button>
 
-  <!-- Page Header -->
-  <header>
+                <p>
+                  Travia
+                </p>
 
-  </header>ß
-  <div class="row">
-  <div class="col-sm-3">
-        <div class="flip">
-          <div class="card">
-            <div class="face front">
-              <div class="inner">
-                <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-              </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item col-md-4">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item col-md-4">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item col-md-4">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="social text-center">
+                        <hr>
+                        <span>
+                            <a style="color: #D9B310; margin: 5px;" href="https://twitter.com/ThisIsTre3" target="_blank">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+
+                            <a style="color: #D9B310; margin: 5px;" href="https://www.linkedin.com/in/tresean-adam/" target="_blank">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+
+                            <a style="color: #D9B310; margin: 5px;" href="https://github.com/adamtre9115" target="_blank">
+                                <i class="fab fa-github-square fa-2x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
             </div>
-            <div class="face back">
-              <div class="inner text-center">
-                <h3>Improved efficiency through automation</h3>
-                <button type="button" class="btn btn-default">Know More</button>
-              </div>
+        </nav>
+
+        <div class="intro text-center">
+            <div class="container">
+                <h2>Tresean Adam is
+                    <span class="element"></span>
+                </h2>
             </div>
-          </div>
         </div>
-      </div>
-    <div class="col-sm-3">
-        <div class="flip">
-          <div class="card">
-            <div class="face front">
-              <div class="inner">
-                <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-              </div>
+
+        <!-- end navbar -->
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="title text-center">Who am I?</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Welcome to my portfolio! As you can see, I am Tresean Adam. I like sunsets, and long walks on the beach…
+                        But really; I love music, hanging out with friends, and technology. Web development has become a
+                        passion of mine. The things that we can create through code are amazing and, I’m just carving out
+                        my niche. In short, I’m doing what I can to make the web a more beautiful place.
+                    </p>
+                </div>
+
+                <div class="my-photo col-md-6 text-center">
+                    <img class="img-fluid rounded" src="assets/images/tresean.jpg" alt="Image of Tresean Adam ">
+                </div>
             </div>
-            <div class="face back">
-              <div class="inner text-center">
-                <h3>Improved efficiency through automation</h3>
-                <button type="button" class="btn btn-default">Know More</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    <div class="col-sm-3">
-        <div class="flip">
-          <div class="card">
-            <div class="face front">
-              <div class="inner">
-                <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-              </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="title text-center">Portfolio</h2>
+            <div class="row">
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/AdamLoveAffair.png " alt="Image of Tresean Wedding Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://adamtre9115.github.io/weddingSite/" target="_blank">Adam Love Affair Wedding</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/friendFinder.jpg" alt="Image of Tresean Friend Finder Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://new-friend-finder.herokuapp.com/" target="_blank">Friend Finder</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/giphySlang.jpg" alt="Image of Tresean Wedding Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://adamtre9115.github.io/GifTastic/" target="_blank">Giphy Slang</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/hangman.jpg" alt="Image of Tresean hangman Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://adamtre9115.github.io/Hangman-Game/" target="_blank">Best of 2000's Hangman</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/narutoTrivia.jpg" alt="Image of Tresean Naruto Trivia Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://adamtre9115.github.io/TriviaGame/" target="_blank">Naruto Trivia</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/quilly.png" alt="Image of Tresean Quilly group Project">
+                    <div class="inner text-center rounded">
+                        <a href="#" target="_blank">Quilly</a>
+                    </div>
+                </div>
+
+                <div class="item col-md-4 ">
+                    <img class="img-fluid itemImg rounded" src="assets/images/railwayExpress.jpg" alt "Image of Tresean schedular Project">
+                    <div class="inner text-center rounded">
+                        <a href="https://adamtre9115.github.io/TrainTime/" target="_blank">Railway Express</a>
+                    </div>
+                </div>
             </div>
-            <div class="face back">
-              <div class="inner text-center">
-                <h3>Improved efficiency through automation</h3>
-                <button type="button" class="btn btn-default">Know More</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    <div class="col-sm-3">
-        <div class="flip">
-          <div class="card">
-            <div class="face front">
-              <div class="inner">
-                <img src="http://vinculumgroup.com/v2/wp-content/uploads/2015/08/nykaa.jpg">
-              </div>
+    </section>
+
+    <section id="langs">
+        <div class="container text-center">
+            <h2 class="title text-center">Technologies I Currently Use</h2>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/html.png" alt="Image of HTML5 Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/css.png" alt="Image of CSS3 Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/js.jpg" alt="Image of JavaScript Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/node.png" alt="Image of Node.js Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/react.png" alt="Image of React Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/mysql.jpg" alt="Image of MySQL Logo">
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid" src="assets/images/mongo.jpg" alt="Image of MongoDB Logo">
+                </div>
             </div>
-            <div class="face back">
-              <div class="inner text-center">
-                <h3>Improved efficiency through automation</h3>
-                <button type="button" class="btn btn-default">Know More</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
+    </section>
+    <section id="contact" class="text-center">
+        <div class="container">
+            <h2 class="title">Let's Connect</h2>
 
+            <p>I'm ready to work when you are!</p>
+            <p>
+                <span>
+                    <i class="fas fa-at fa-lg"></i>
+                </span>:
+                <a class="mailto" href="mailto:tresean.adam@gmail.com">Via Email</a>
+            </p>
+        </div>
+    </section>
 
-  <!-- Page footer -->
-  <footer>
+    <footer class="text-center">
+        <p>&copy;2018 Tresean Adam |
+            <span>
+                <a style="color: #D9B310; margin: 5px;" href="https://twitter.com/ThisIsTre3" target="_blank">
+                    <i class="fab fa-twitter-square fa-lg"></i>
+                </a>
 
-  </footer>
+                <a style="color: #D9B310; margin: 5px;" href="https://www.linkedin.com/in/tresean-adam/" target="_blank">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
 
-  <!-- Page javascript/jquery -->
-  <script type="text/javascript" src="assets/javascript/game.js">
-  </script>
-
+                <a style="color: #D9B310; margin: 5px;" href="https://github.com/adamtre9115" target="_blank">
+                    <i class="fab fa-github-square fa-lg"></i>
+                </a>
+            </span>
+        </p>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js " integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4 "
+        crossorigin="anonymous "></script>
+    <script src="assets/js/smoothscroll.js "></script>
+    <script src="assets/js/app.js "></script>
 </body>
 
 </html>
